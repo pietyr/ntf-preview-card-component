@@ -1,0 +1,56 @@
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+
+	--very-dark-blue-main-bg: hsl(217, 54%, 11%);
+	--very-dark-blue-card-bg: hsl(216, 50%, 16%);
+	--very-dark-blue-line: hsl(215, 32%, 27%);
+	--white: hsl(0, 0%, 100%);
+
+	--p-size: 1.125em;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	background-color: var(--very-dark-blue-main-bg);
+	color: var(--white);
+}
+
+main {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto 1.5rem;
+}
+
+article {
+	background-color: var(--very-dark-blue-card-bg);
+	padding: 1.5rem;
+	max-width: 21.875rem;
+	border-radius: 1rem;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	border-radius: 0.5rem;
+}
+
+footer {
+	flex-grow: 0;
+}
