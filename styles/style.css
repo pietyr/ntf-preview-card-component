@@ -46,6 +46,7 @@ article {
 	padding: 1.5rem;
 	max-width: 21.875rem;
 	border-radius: 1rem;
+	margin: 1rem auto;
 }
 
 img.equilibrium {
@@ -146,4 +147,12 @@ div.svg-wrapper {
 .avatar-container:hover div.svg-wrapper {
 	background-color: var(--cyan-hover);
 	transition: 0.5s;
+}
+
+@media (max-width: 350px) {
+	.details {
+		flex-direction: column;
+		align-items: center;
+		gap: 0.5rem;
+	}
 }
