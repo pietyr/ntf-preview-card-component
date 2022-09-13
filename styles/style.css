@@ -118,6 +118,7 @@ a:hover {
 
 .avatar-container {
 	position: relative;
+	display: block;
 }
 
 div.svg-wrapper {
